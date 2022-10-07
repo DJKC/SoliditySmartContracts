@@ -1,6 +1,10 @@
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
+/*
+npx hardhat test test/RealEstate.js
+*/
+
 describe("RealEstate", () => {
 	let realEstate, escrow
 	let deployer, seller
